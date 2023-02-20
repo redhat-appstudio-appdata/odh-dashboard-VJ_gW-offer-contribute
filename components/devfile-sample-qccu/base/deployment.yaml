@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-qccu
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:VJ_gW-devfile-sample-qccu
+      - image: quay.io/redhat-appstudio/user-workload@sha256:c3ece14f25d344992bfc430d6aeca2a56339e8b84328bf61d64c137b531bc655
         name: my-nodejs
         ports:
         - containerPort: 3001
